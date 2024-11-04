@@ -1,0 +1,26 @@
+html{ /* selecteur/css/propriety */
+    font-size: 62.5%;
+}
+
+body{
+   font: 1.6rem sans-serif;  /* serif default */
+   margin: 0;
+   line-height: 1.6; 
+   letter-spacing: 0.1rem; /* 1px */
+   background-color: #2b2a33;
+   color: #ffffff;
+}
+h1,
+h2,
+h3,
+figure,
+p{
+   margin: 0;
+   font-weight: normal;
+}
+*{
+   box-sizing: border-box;
+}
+img{
+    display: inline-block;
+}

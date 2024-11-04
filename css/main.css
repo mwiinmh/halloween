@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url(./rest.css);
+
+/* theme and variable */
+:root{
+    --button-primary: rgb(162, 155, 254);
+}
+/* theme */
+header > h1{
+    font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(163, 9, 9);
+  line-height: 8.5rem;
+  font-size: 7rem;
+  text-shadow: .2rem .2rem rgb(255, 179, 0),
+  .2rem .2rem rgb(255, 179, 0),
+  .2rem .2rem rgb(255, 179, 0),
+  .2rem .2rem rgb(255, 179, 0);
+}
+figure, section{
+    max-width: 90rem;
+    margin: 1rem auto;
+}
+/* Ca va donner 100% de la largeur du parent */
+figure img{
+  
+    width: 100%;
+    filter: drop-shadow(0 0 .2rem);
+}
+/* gallerie figcaption titre */
+figure.gallery-primary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+figure.gallery-primary figcaption{
+    display:block;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 4.5rem;
+    padding: 1rem 0;
+}
+.btn-default{ /* bouton par default */
+    display: inline-block;
+    width: max-content;
+    line-height: 2.5rem;
+    padding: .8rem;
+    color: #222;
+    background-color: #ccc;
+    text-decoration: none;
+    border-radius: .4rem;
+    text-transform: capitalize;
+}
+/*  theme button*/
+.btn-primary{
+   background-color: rgba(214, 48, 49, .9);
+}
+.btn-secondary{
+   background-color: rgb(162, 155, 254);
+}
+figure.gallery-primary img{
+    height: 15rem;
+    width: auto;
+}
+
+footer p{
+    text-align: center;
+}
